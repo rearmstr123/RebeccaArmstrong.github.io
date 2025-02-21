@@ -1,52 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rebecca Armstrong</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
-        header { background: #333; color: #fff; padding: 20px; text-align: center; }
-        section { padding: 20px; max-width: 900px; margin: auto; }
-        h2 { color: #333; }
-        .container { display: flex; flex-wrap: wrap; }
-        .box { flex: 1; padding: 10px; }
-    </style>
+    <title>Rebecca Armstrong - Scholar & Educator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- External Stylesheet -->
 </head>
+
 <body>
+    <!-- Header -->
     <header>
         <h1>Rebecca Armstrong</h1>
-        <p>Music Researcher | Mathematics Student | Dance Anthropologist | Educational Advocate</p>
+        <p>Multilingual Scholar, Educator, and Researcher</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#research">Research</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-    
-    <section>
-        <h2>About Me</h2>
-        <p>Rebecca Armstrong is an Irish Choreomundus master’s scholar with a multidisciplinary academic background in musicology, mathematics, dance, anthropology, and education. She holds a First Class Joint Honours BA in Mathematics and Music from Trinity College Dublin (TCD). She has been awarded TCD’s Gold Medal for exceptional academic performance and won multiple prizes for her research.</p>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome!</h2>
+        <p>Welcome to my professional website. Here you can learn more about my academic journey, teaching experience, and research projects.</p>
     </section>
-    
-    <section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a multilingual scholar with a background in dance anthropology, mathematics, and music. I specialize in research related to dance education, flow psychology, and arts education.</p>
+        <p>Currently, I am completing my final semester of an Erasmus Mundus master's scholarship in dance anthropology and cultural heritage across four European universities.</p>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research">
         <h2>Research & Publications</h2>
+        <p>My research focuses on integrating arts education with interdisciplinary approaches to enhance creativity, academic growth, and mental well-being. I have worked on several projects exploring the relationship between dance, education, and cultural heritage.</p>
+        <!-- Add links to publications or research papers -->
         <ul>
-            <li><strong>Why Musicologists Don’t Dance:</strong> An award-winning undergraduate musicology dissertation.</li>
-            <li><strong>Digitally Dancing in Defiance:</strong> An ethnographic study of the United Ukrainian Ballet.</li>
-            <li><strong>Back to Our Roots:</strong> Research on ecological consciousness through eco-literate music education.</li>
-            <li><strong>Master’s Dissertation:</strong> Investigating flow experiences in flamenco classrooms.</li>
+            <li><a href="link_to_publication_1">Publication 1</a></li>
+            <li><a href="link_to_publication_2">Publication 2</a></li>
         </ul>
     </section>
-    
-    <section>
-        <h2>Projects & Initiatives</h2>
-        <p>As an advocate for educational development, Rebecca served as an educational development officer for the STAND charity society, where she developed initiatives to integrate arts education into disadvantaged schools.</p>
+
+    <!-- Teaching Section -->
+    <section id="teaching">
+        <h2>Teaching</h2>
+        <p>Alongside my academic work, I am passionate about teaching. I offer lessons in dance, music, and mathematics, with an emphasis on innovative, data-driven educational practices.</p>
+        <p><a href="https://yourpianoteachingsite.com" target="_blank" class="button">Visit My Piano Teaching Website</a></p>
     </section>
-    
-    <section>
-        <h2>Dance & Creative Work</h2>
-        <p>Rebecca is a trained ballet dancer with experience in contemporary, afro-contemporary, and choreography. She has worked in sound engineering for theatre and is exploring documentary filmmaking.</p>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <!-- Example Project 1 -->
+            <div class="project-item">
+                <img src="project_image_1.jpg" alt="Project 1">
+                <h3>Project Title</h3>
+                <p>Project description and link to more details.</p>
+            </div>
+            <!-- Example Project 2 -->
+            <div class="project-item">
+                <img src="project_image_2.jpg" alt="Project 2">
+                <h3>Project Title</h3>
+                <p>Project description and link to more details.</p>
+            </div>
+        </div>
     </section>
-    
-    <section>
-        <h2>Technical Skills & Internships</h2>
-        <p>Rebecca has experience in machine learning, Python, R, and IT architecture. She completed an internship at RITMO (University of Oslo) and worked in Cloud IT Architecture at Vodafone in 2021.</p>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch or learn more about my work, feel free to reach out via the form below.</p>
+        <!-- Example contact form -->
+        <form action="your_form_processing_script" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="button">Send Message</button>
+        </form>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Rebecca Armstrong. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
